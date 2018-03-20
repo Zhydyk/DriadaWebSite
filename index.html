@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="js/slider.js"></script>
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+<!-- HEADER NAVBAR-->
+        <nav class="nav">
+            <div class="container">
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li>
+                            <a href="#">Головна</a>
+                        </li>
+                        <li>
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <a href="#">Бронювання</a>
+                        </li>
+                        <li>
+                            <a href="#">Батькам</a>
+                        </li>
+                        <li>
+                            <a href="#">Відгуки</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home">
+        </section>
+
+        <script>
+            $('.navTrigger').click(function () {
+                $(this).toggleClass('active1');
+                console.log("Clicked menu");
+                $("#mainListDiv").toggleClass("show_list");
+                $("#mainListDiv").fadeIn();
+            });
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+<!-- END HEADER NAVBAR -->
+        <div class="main-before-slider">
+        </div>
+        <div class="main-wrapper">            
+            <div class="main-text1">
+                <div class="main-title">
+                    Вітаємо вас на сайті компанії "ZhyVen"!
+                </div>
+                <div class="main-subtitle">
+                    Наша фірма надає послуги по проектуванню та оперативному будівництву дерев'яних будинків, саун та альтанок з квадратного
+                    та оциліндрованого брусу високої якості. Будівництво з брусу гарантує екологічну безпеку і беззаперечний
+                    домашній комфорт, відповідає високим вимогам щодо зміцнення здоров'я та має гарні теплоізоляційні властивості.
+                    Саме в такому будинку тепло взимку та прохолодно влітку. Також перевагами будівництва дерев'яних будинків
+                    з брусу є швидкий термін побудови, надійність, довговічність та естетична привабливість.
+                    <br>Користуючись послугами компанії "ZhyVen", у Вас є можливість вибрати вже готовий проект дерев'яного будинку
+                    або створити персональний проект з допомогою професіоналів нашої команди. Найкращі архітектори з великим
+                    досвідом роботи в своїй галузі допоможуть Вам створити дім Вашої мрії. У нас на сайті ви можете підібрати
+                    план і вид майбутньог будинку.
+                </div>
+            </div>       
+<!-- START MAIN -->
+        <main class="main">
+            <div class="col-2 left">
+                <div class="main-col-2-block">
+                    <a href="">
+                        <img src="img/001.jpg" class="col2-img">
+                    </a>
+                </div>
+            </div>
+            <div class="col-2 right">
+                    <div class="main-col-2-block">
+                            <a href="">
+                                <img src="img/001.jpg" class="col2-img">
+                            </a>
+                        </div>
+            </div>
+        </main>
+    </div>
+<!-- END MAIN -->
+
+<!-- START FOOTER -->
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-left col-3 ">
+                    <i class="fa fa-instagram" style="color:white; font-size:32px;padding:40px 7px;" ></i>
+                    <i class="fa fa-facebook-square" style="color:white; font-size:32px;padding:40px 7px;"></i>
+                    <i class="fa fa-google-plus-square" style="color:white; font-size:32px;padding:40px 7px;"></i>
+                    <i class="fa fa-map-marker" style="color:white; font-size:32px;padding:40px 7px;"></i>
+                </div>
+                <div class="footer-leftcenter col-3">
+                    <i class="fa fa-envelope" style="color:white; font-size:32px;padding:10px 7px;" ></i><br>
+                        zhyven2012@gmail.com
+                        zhyven2012.com
+                </div>
+                <div class="footer-rightcenter col-3 ">
+                    <i class="fa fa-phone" style="color:white; font-size:32px;padding:10px 7px;" ></i>
+                    <p class="footer-text">тел.моб: +380969391290</p>
+                </div>
+                <div class="footer-right col-3">
+                    <i class="fa fa-map-marker" style="color:white; font-size:32px;padding:10px 7px;"></i>
+                    <p class="footer-text">м.Львів</p>
+                </div>
+            </div>
+        </footer>
+<!-- END FOOTER -->
+    </div>
+</body>
+
+</html>
