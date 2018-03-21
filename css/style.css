@@ -1,31 +1,120 @@
 body {
-     margin: 0 auto;
-    font-family: Roboto, sans-serif;
-    box-sizing: border-box;
+     margin: 0;
+     font-family: 'Roboto Slab', serif;;
+    
 }
 
 .wrapper {
+    max-width: 1920px;
+      
 
-    min-height: 320vh;
-    min-width: 320px;
-    width: 100%;
-    font-size: 15px;
-    background-image:url(F:/driada/img/background-main.jpg);
-
+}
+.bg-image-1{
+    background-image:url('../img/background-main.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 
 .main-wrapper {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1170px;
     margin: 0 auto;
 }
+.main-image-logo{
+    max-width: 470px;
+    margin: 0 auto;
+}
+.main-image-logo img{
+    width: 100%;
+}
+.main-text1{
+    text-align: center;
+}
+.main-title{
+    color: white;
+    font-size: 96px;
+    padding: 40px 0;
+}
+.main-subtitle{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.button-main{
+    margin: 0 auto;
+    padding-bottom: 180px;
+    max-width: 480px;
+    
+}
+.button-main a{
+    text-decoration: none;
+}
+.button-book{
+    width: 100%;
+    font-size: 48px;
+    padding: 40px 50px;
+    background-color: #158daf;
+    border-radius: 80px; 
+    border: 0;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.bg-image-2{
+    background-image:url('../img/bg-image-2.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
 
+}
+.main-wrapper-2{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main-subtitle-2{
+    color:#003342;
+    font-size: 36px;
+    
+
+}
+.main-title-2{
+    color: 158daf;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-subtitle-3{
+    color:#003342;
+    font-size: 36px;
+}
+.main-subtitle-4{
+    color:#003342;
+    font-size: 40px;
+    padding: 80px 0 80px 0;
+}
+.foto-people{
+    margin: 0 auto;
+    max-width:420px;
+    padding-bottom: 165px;
+}
+.foto-people img{
+    
+    width: 100%;
+}
+.main-title-3{
+    color:#4daf46;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 95px;
+}
 .main-blocks {
     width: 100%;
     display: inline-block;
 }
 
 .col-4 {
-    background-color: #fff;
     box-sizing: border-box;
     width: 33.3333333%;
     display: inline-block;
@@ -46,209 +135,58 @@ body {
     box-sizing: border-box;
     padding-left: 10px;
 }
-
-.main-menu-block {
-    margin: 10px 0;
-    background-color: #373b3a;
-    position: relative;
-    opacity: 0.8;
-    padding: 5% 0;
-}
-
-.main-menu-block:hover {
-    opacity: 1;
-    transform: scale(1.05);
-    background-color: #08734e;
-}
-
-.col-6-img {
-    max-width: 100%;
-}
-
-.center {
-    position: absolute;
-    left: 0;
-    top: 45%;
+.title-4 {
+    padding-top: 25px;
+    padding-left: 10px;
     width: 100%;
-    text-align: center;
     font-size: 34px;
-    color: white;
+    color: #003342;
 }
-header {
-    margin: 0 auto;
-    width: 1920px;
-    max-width: 100%;
-    background-color: #373b3a;
-    z-index: 1;
-    margin-bottom: 20px;
-}
-
-.header-wrapp {
-    display: flex;
-}
-
-.container {
+.list ul{
     width: 100%;
-    margin: 0 auto;
-}
-
-.header-left {
-    float: left;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-
-}
-
-.header-logo {
-    position: relative;
-    z-index: 1;
-}
-
-.header-logo a {
-    margin: 10px 10px 10px 10px;
-    width: 283px;
-    height: 154px;
-    display: block;
-    text-decoration: none;
-
-}
-
-.header-logo a img {
-    width: 100%;
-    display: inline-block;
-}
-
-.header-top {
-    display: flex;
-    margin-right: 30px;
-    padding-top: 17px;
-    padding-bottom: 13px;
-}
-
-.header-top a {
-    color: #08734e;
-    font-size: 15px;
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.header-tel a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.header-language a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #595959;
-    border-bottom: 2px solid;
-}
-
-.header-top ul {
-    list-style-type: none;
-}
-
-.header-bot li {
-    float: left;
-    list-style-type: none;
-    padding-right: 15px;
-    text-align: right;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.main-text1 {
-    margin: 50px 20px;
-}
-
-.main-title {
-    text-align: center;
     font-size: 28px;
-    margin: 10px;
+    color: #003342;
 }
-
-.main-subtitle {
-    font-size: 20px;
-    text-align: center;
-}
-
-.main-before-slider {
-    height: 65px;
-    background-color: #08734e;
-}
-
-/* BEGIN MAIN */
-.main{
-    width: 100%;
-    display: inline-block;
-    height: 1000px;
-}
-.col-2{
-    background-color: #fff;
-    width: 50%;
-    display: inline-block;
-    float: left;
-    box-sizing: border-box;
-}
-.main-col-2-block {
-    margin: 10px 0;
-    background-color: #373b3a;
-    position: relative;
-    opacity: 0.8;
-    padding: 5% 0;
-}
-.col2-img{
-    width: 100%;
-}
-
-
-/* END MAIN */
-
-
-/* FOOTER */
-
-
-.footer{
-    
-    width: 100%;
-    background-color: #08734e;
-    position: absolute;
-}
-.footer-wrapper{
-    max-width: 1000px;
-    height: 150px;
+.foto-location{
     margin: 0 auto;
-    padding-top: 44px;
+    max-width:260px;
+    
 }
-
-.col-3{
-    box-sizing: border-box;
-    width: 25%;
-    display: inline-block;
-    float: left;
-    font-size: 18px;
-    color: #fff;
-    overflow: hidden;
+.foto-location img{
+    width: 100%;
+    padding-top: 160px;
+}
+.main-title-5{
+    color: #fd4b61;
+    font-size: 48px;
+    padding-top: 40px;
     text-align: center;
 }
-.footer-text{
-    margin: 0;
+.main-title-6{
+    color: #003342;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 60px;
 }
-
-
-
-
-
-/* END FOOTER */
-
-@media only screen and (max-width: 800px) {
+.main-subtitle-6{
+    color:#003342;
+    font-size: 36px;
+}
+@media(max-width:320px){
+    .main-subtitle{
+        font-size: 20px;
+    }
+    .button-book{
+        font-size: 20px;  
+    }
+}
+@media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
+    }
+}
+@media only screen and (max-width: 890px) {
+    [class*="main-subtitle-"] {
+        font-size: 30px;
     }
 }
