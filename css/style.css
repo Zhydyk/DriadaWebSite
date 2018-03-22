@@ -13,6 +13,8 @@ body {
     background-image:url('../img/background-main.jpg');
     background-position: center top;
     background-repeat: no-repeat;
+    padding: 0 10px 0 10px;
+
 }
 
 .main-wrapper {
@@ -52,7 +54,7 @@ body {
 .button-book{
     width: 100%;
     font-size: 48px;
-    padding: 40px 50px;
+    padding: 10% 15%;
     background-color: #158daf;
     border-radius: 80px; 
     border: 0;
@@ -64,6 +66,7 @@ body {
     background-image:url('../img/bg-image-2.jpg');
     background-position: center top;
     background-repeat: no-repeat;
+    padding: 0 10px 0 10px;
 
 }
 .main-wrapper-2{
@@ -172,17 +175,29 @@ body {
     color:#003342;
     font-size: 36px;
 }
-@media(max-width:320px){
+@media(max-width:485px){
+    .main-title{
+        font-size: 48px;
+    }
     .main-subtitle{
         font-size: 20px;
     }
+    [class*="main-title-"] {
+        font-size: 35px;
+    }
+
     .button-book{
         font-size: 20px;  
     }
 }
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
-        width: 100%;
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 890px) {
+    [class*="main-title-"] {
+        font-size: 35px;
     }
 }
 @media only screen and (max-width: 890px) {
