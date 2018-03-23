@@ -53,7 +53,7 @@
 .nav div.main_list ul li {
     width: auto;
     height: 65px;
-    padding: 0 50px 0 50px;
+    margin: 0 auto;
 }
 
 .nav div.main_list ul li a {
