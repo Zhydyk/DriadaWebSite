@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+   
+}
+.wrapper {
+   max-width: 1920px;
+   width: 100%;
+}
+
+.main-wrapper {
+   width: 100%;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+.main-text1{
+   text-align: center;
+}
+.main-title{
+   color: green;
+   font-size: 96px;
+   padding: 40px 0;
+   letter-spacing: 5px;
+}
+input[type=text]{
+   width: 70%;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: white;
+   background-position: 10px 10px;
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+   transition: width 0.4s ease-in-out;
+}
+label{
+   font-size: 28px;
+   line-height: 2;
+   color: #003342;
+}
+.title{
+   font-size: 28px;
+   line-height: 2;
+   color: #003342; 
+}
+.size-t-shirt{
+   color:green;
+   font-size: 28px;
+}
+.bool{
+   color:green;
+   font-size: 28px;
+}
+.comment{
+   font-size: 28px;
+   color: #003342; 
+}
+input[type=submit]{
+   box-sizing: border-box;
+   border:0;
+   background-color:#003342;
+   color: #fff;
+   padding:10px 20px; 
+   border-radius: 20px;
+}
+input[type=reset]{
+    box-sizing: border-box;
+   border:0;
+   background-color:#003342;
+   color: #fff;
+   padding:10px 20px; 
+   border-radius: 20px;
+}
+
+@media only screen and (max-width: 490px){
+   .main-title{
+      font-size: 36px;
+   }
+}

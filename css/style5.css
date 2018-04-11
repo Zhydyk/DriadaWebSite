@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', Serif;
+}
+
+.wrapper {
+    max-width: 1920px;
+    background-position: center;
+    background-size: cover;
+}
+
+.background1 {
+    background-image: url("../img/comingBackground.jpg");
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.main-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-text1{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    
+}
+.main-text2{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    margin-top: 60px;
+}
+.main-text3{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.background-color{
+    padding-top: 50px;
+}
+
+.top-button {
+    background-color: #ed1c24;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    width: 50%;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.main-title{
+    color: #17ae4b;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}

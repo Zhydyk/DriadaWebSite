@@ -1,0 +1,174 @@
+body {
+     margin: 0;
+     font-family: 'Roboto Slab', serif;;
+    
+}
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main-text5{
+    text-align: center;
+}
+.main-title{
+    color: green;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.form{
+    color: #003342;
+    font-size: 22px;
+}
+input[type=text]{
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=date]{
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+label{
+    font-size: 28px;
+    line-height: 2;
+    color: #003342;
+}
+#zayizd{
+    box-sizing: border-box;
+    border:0;
+    background-color:#003342;
+    color: #fff;
+    padding:5px 10px; 
+    border-radius: 20px;
+    margin:200px;  
+    text-decoration:none;
+}
+.title{
+    font-size: 28px;
+    line-height: 2;
+    color: #003342; 
+}
+.size-t-shirt{
+    color:green;
+    font-size: 28px;
+}
+.bool{
+    color:green;
+    font-size: 28px;
+}
+.comment{
+    font-size: 28px;
+    color: #003342; 
+}
+input[type=submit]{
+    box-sizing: border-box;
+    border:0;
+    background-color:#003342;
+    color: #fff;
+    padding:10px 20px; 
+    border-radius: 20px;
+    margin:10px;
+}
+input[type=reset]{
+     box-sizing: border-box;
+    border:0;
+    background-color:#003342;
+    color: #fff;
+    padding:10px 20px; 
+    border-radius: 20px;
+}
+
+.text{
+    font-size: 98px;
+    border:1px dotted;
+    width: 120px;
+}
+.wrapper2 {
+    max-width: 1920px;
+    background-position: center;
+    background-size: cover;
+}
+
+.background1 {
+    background-image: url("../img/comingBackground.jpg");
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.main-wrapper2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-text1{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    
+}
+.main-text2{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    margin-top: 60px;
+}
+.main-text3{
+    background-color: #fff;
+    padding: 25px 0 40px 0;
+    box-shadow: 0 0 45px 4px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.background-color{
+    padding-top: 50px;
+}
+
+.top-button {
+    background-color: #ed1c24;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    width: 50%;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.main-title2{
+    color: #17ae4b;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}
